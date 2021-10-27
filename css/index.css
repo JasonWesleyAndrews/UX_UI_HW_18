@@ -1,10 +1,14 @@
+/* general styles */
 body {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     font-family: Arial, sans-serif, Spartan;
-    color: #373738
-    
+    color: #373738 
+}
+section {
+    display: flex;
+    justify-content: center;   
 }
 /* header styles */
 header {
@@ -38,7 +42,7 @@ p {
     font-weight: 100;
 }
 h1 {
-  font-size: 34px;
+  font-size: 38px;
   white-space: nowrap;
   font-weight: 100;
 }
@@ -49,6 +53,11 @@ h2 {
 }
 h3 {
     font-size: 16px;
+}
+h4 {
+    font-size: 30px;
+    white-space: nowrap;
+    font-weight: 100; 
 }
 .heading {
     display: flex;
@@ -61,48 +70,54 @@ li {
     display: flex;
     justify-content: center;
 }
-section {
-    display: flex;
-    justify-content: center;   
+/* home page styles */
+.homeText {
+    padding: 0px 20px 0px 16px;
+    max-width: 600px;  
+    text-align: center;
 }
-.content {
-    display: flex;
-    flex-direction: row;
-    width: 75%;
-}
-.homeP {
-    padding: 0px 100px 0px 16px;
-    max-width: 260px;
-}
-.words {
-    display: flex;
-    width: 50%;
-}
-.heroImg {
+.homeImg {
     width: 100%;
     height: auto;       
 }
-.heroContainer {
+.homeImgContainer {
     width: 50%;
-    padding: 30px 16px 0px 30px;
-    max-width: 260px;
+    padding: 0px 0px 0px 30px;
+    max-width: 300px;
     min-width: 200px;
 }
 .homeHero {
     height: auto;
-    margin: 20px 0px 60px 0px;
+    margin: 20px 10px 20px 0px;  
+  
 }
-.mainIcons {
+.homePageIcons {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 20px 100px 30px 100px;
     filter: invert(22%) sepia(6%) saturate(99%) hue-rotate(202deg) brightness(92%) contrast(96%);
+    
 }
+/* about me page styles */
+.heading {
+    margin: 15px 0px 0px 0px;
+}
+
+.aboutMeContent {
+    width: 75%
+}
+.aboutMeImg {
+   width: 250px;
+   float: right;
+   margin: 5px 0px 20px 20px;
+}
+
 /* my work styles */
 .myWork {
     height: auto;
     margin: 0px 0px 40px 0px;
+    
 }
 .caseStudy {
     width: 300px;
@@ -118,13 +133,18 @@ section {
     height: auto;
 }
 /* my skills styles */
-.skillsContainer {
-  
-    justify-content: center;  
+.mySkills {
+    margin: 30px 0px 0px 0px;
 }
 .skills {
-    display: flex;
-    justify-content: space-around;  
+    display: grid; 
+    grid-template-columns: 33% 34% 33%;
+    width: 75%;
+    margin: 50px;
+}
+
+.skills li {
+    line-height: 1;
 }
 /* footer styles */
 footer {
