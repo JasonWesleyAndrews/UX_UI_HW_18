@@ -96,9 +96,9 @@ li {
     justify-content: space-around;
     align-items: center;
     padding: 20px 100px 30px 100px;
-    filter: invert(22%) sepia(6%) saturate(99%) hue-rotate(202deg) brightness(92%) contrast(96%);
-    
+    filter: invert(22%) sepia(6%) saturate(99%) hue-rotate(202deg) brightness(92%) contrast(96%);   
 }
+
 /* about me page styles */
 .heading {
     margin: 15px 0px 0px 0px;
