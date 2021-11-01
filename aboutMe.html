@@ -12,10 +12,11 @@
          </div>
          <nav>
              <ul class="mainNav">
-                <li>Home</li>
-                <li>About</li>
-                <li>Work</li>
-                <li>Resume</li>
+                <li class="navCollapse"><a href="home.html">Home</a></li>
+                <li class="navCollapse"><a href="#">About</a></li>
+                <li class="navCollapse">Work</li>
+                <li class="navCollapse">Resume</li>
+                <li class="mobileNav">Menu</li>
                 <li class="contactButton">Contact</li>
              </ul>
            </nav>
@@ -40,13 +41,14 @@ I have the soft skills to collaborate with engineers, product and other designer
             </div>
           
    </section>
-     <!-- my skills section -->
+   <hr class="styledHR">
+     <!-- my skills section coded using grid and flex (depending on viewport size) -->
     <div class="heading">
       <h4 class="mySkills">My Skills</h4>
   </div>
     <section>
       <div class="skills">
-    <ul>
+    <ul class="skillsList skillsLeft">
       <li>UX Researching</li>
       <li>Creating User Personas</li>
       <li>Wireframing</li>
@@ -55,7 +57,7 @@ I have the soft skills to collaborate with engineers, product and other designer
       <li>CSS3</li>
       <li>RWD</li>
   </ul>
-  <ul>
+  <ul class="skillsList skillsCenter">
    <li>Usability Testing</li>
    <li>Card Sorting</li>
    <li>Site Mapping</li>
@@ -64,7 +66,7 @@ I have the soft skills to collaborate with engineers, product and other designer
    <li>User Task Flow</li>
    <li>User Journey Mapping</li>
   </ul>
-  <ul>
+  <ul class="skillsList skillsRight">
   <li>UX Writing</li>
   <li>Atomic Design</li>
   <li>UI Button Design</li>
