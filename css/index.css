@@ -107,7 +107,7 @@ li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 150px 30px 150px;
+    padding: 20px 100px 30px 100px;
     filter: invert(22%) sepia(6%) saturate(99%) hue-rotate(202deg) brightness(92%) contrast(96%);   
 }
 .mainIcons { 
