@@ -217,7 +217,9 @@ footer ul {
         margin: 0px 10px;
         padding: 13px;
     }
-
+.mainNav {
+    padding: 0;
+}
     .skills {
        display: flex;
        flex-direction: column; 
